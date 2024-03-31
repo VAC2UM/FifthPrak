@@ -10,7 +10,7 @@ import android.widget.ListView;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class MainActivity extends AppCompatActivity{
+public class MainActivity extends AppCompatActivity {
 
     ListView listView;
 
@@ -29,17 +29,20 @@ public class MainActivity extends AppCompatActivity{
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                if (position == 0){
+                if (position == 0) {
                     Intent intent = new Intent(MainActivity.this, FilmsList.class);
                     startActivity(intent);
                 } else if (position == 1) {
                     Intent intent = new Intent(MainActivity.this, SerialsList.class);
                     startActivity(intent);
-                }else if (position == 2) {
+                } else if (position == 2) {
                     Intent intent = new Intent(MainActivity.this, BooksList.class);
                     startActivity(intent);
-                }else if (position == 3){
+                } else if (position == 3) {
                     Intent intent = new Intent(MainActivity.this, Clubs.class);
+                    startActivity(intent);
+                } else if (position == 4){
+                    Intent intent = new Intent(MainActivity.this, Actors.class);
                     startActivity(intent);
                 }
             }
