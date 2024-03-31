@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FifthPrak</string>
+
+    <string-array name="list_categories">
+        <item>Фильмы</item>
+        <item>Сериалы</item>
+        <item>Книги</item>
+    </string-array>
+
+    <string-array name="films_names">
+        <item>Дюна</item>
+        <item>Джокер</item>
+        <item>Ла-Ла-Ленд</item>
+        <item>Мастер и Маргарита</item>
+    </string-array>
+
+    <string-array name="serials_names">
+        <item>Кухня</item>
+        <item>Игра престолов</item>
+        <item>Слово пацана</item>
+        <item>Оби-Ван Кеноби</item>
+    </string-array>
+
+    <string-array name="books_names">
+        <item>Мастер и Маргарита</item>
+        <item>Онегин</item>
+        <item>Оно</item>
+        <item>Гарри Поттер и Принц-полукровка</item>
+    </string-array>
+</resources>
