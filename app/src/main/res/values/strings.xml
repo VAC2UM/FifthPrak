@@ -5,6 +5,7 @@
         <item>Фильмы</item>
         <item>Сериалы</item>
         <item>Книги</item>
+        <item>Клубы</item>
     </string-array>
 
     <string-array name="films_names">

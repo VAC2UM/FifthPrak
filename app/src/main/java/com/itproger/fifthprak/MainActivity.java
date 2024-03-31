@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity{
                 }else if (position == 2) {
                     Intent intent = new Intent(MainActivity.this, BooksList.class);
                     startActivity(intent);
+                }else if (position == 3){
+                    Intent intent = new Intent(MainActivity.this, Clubs.class);
+                    startActivity(intent);
                 }
             }
         });
