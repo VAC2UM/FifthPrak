@@ -7,20 +7,19 @@
     android:layout_height="match_parent"
     tools:context=".BooksList">
 
-    <ListView
-        android:id="@+id/books_list"
+    <TextView
+        android:id="@+id/selection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/edit_text"
-        tools:ignore="MissingConstraints">
-
-    </ListView>
-
-    <EditText
-        android:id="@+id/edit_text"
+        android:textSize="26sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+    <Spinner
+        android:id="@+id/spinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
-        android:hint="Добавить книгу">
-    </EditText>
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selection" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
